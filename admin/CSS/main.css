@@ -1,0 +1,60 @@
+.form-container {
+  position: absolute;
+  top: 30vh;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.form-row {
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 10% 25px 50px 25px;
+  box-shadow: black;
+}
+
+button.btn-outline-secondary {
+  text-align: center;
+}
+
+body.editClass {
+  background-color: #eddddc;
+}
+
+.logo {
+  border-radius: 1px;
+  padding-left: 5rem;
+}
+
+.main {
+  background-color: #000;
+  height: 90px;
+}
+
+nav.navbar {
+  background-color: #000;
+  height: 90px;
+}
+
+img.logo1 {
+  padding-left: 50px;
+}

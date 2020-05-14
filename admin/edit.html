@@ -1,0 +1,62 @@
+<html>
+  <header>
+    This page will allow the admin to edit the events details without requiring
+    the id
+  </header>
+  <title>This will hold the edit events data</title>
+  <link rel="stylesheet" href="CSS/main.css" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+  <body class="editClass">
+    <form id="Form" method="post">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inp_name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inp_name"
+            placeholder="Name"
+          />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inp_date">Date</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inp_date"
+            placeholder="Date"
+          />
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inp_time">Time</label>
+          <input
+            type="time"
+            class="form-control"
+            id="inp_time"
+            placeholder="Time"
+          />
+        </div>
+        <div class="form-group col-md-10">
+          <label for="inp_url">Url</label>
+          <input
+            type="url"
+            class="form-control"
+            id="inp_url"
+            placeholder="Please enter the Url here"
+          />
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-outline-secondary text-right">
+          Submit
+        </button>
+      </div>
+    </form>
+  </body>
+  <script src="main.js"></script>
+</html>

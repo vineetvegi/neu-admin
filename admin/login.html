@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+</head>
+<link rel="stylesheet" href="CSS/main.css">
+
+<body
+  style="background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg');">
+  <section class="container-fluid">
+    <section class="row justify-content-center">
+      <section class="col-12 col-sm-6 col-md-3">
+        <form class="form-container">
+          <form onsubmit="return adminLogin()" action="index.html">
+            <div class="form-group">
+              <label for="Username">Username</label>
+              <input type="text" class="form-control" id="uName" aria-describedby="Username">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="pAss" autocomplete="on">
+            </div>
+            <!-- <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div> -->
+            <button type="submit" onclick="adminLogin()" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </form>
+      </section>
+    </section>
+  </section>
+  <!-- <form onsubmit="return adminLogin()" action="index.html">
+    <input id="uName" placeholder="Username" type="text" /><br />
+    <input id="pAss" placeholder="Password" type="password" /><br />
+    <button onclick="adminLogin()" type="submit">Login</button>
+  </form> -->
+</body>
+<script src="main.js"></script>
+
+</html>
